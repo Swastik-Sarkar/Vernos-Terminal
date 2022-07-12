@@ -5,6 +5,7 @@ import json
 import random
 import time
 
+sys.path.insert(0, '/commands')
 path = 'C:/'
 host_name = socket.gethostname()
 host_ip = socket.gethostbyname(host_name)
@@ -14,3 +15,4 @@ while True:
 	if code == 'ip':
 		print("IP: " + host_ip)
 		print("Machine Name is " + host_name)
+	
