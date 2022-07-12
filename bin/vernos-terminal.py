@@ -18,6 +18,6 @@ while True:
 		print("IP: " + host_ip)
 		print("Machine Name is " + host_name)	
 	
-	if code == 'test':
-		ip2()
+	if code == 'version':
+		vernos_public_ver()
 		
